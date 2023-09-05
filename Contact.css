@@ -6,11 +6,11 @@
   font-weight: 400;
   margin: 19px auto 60px 0;
 } .u-section-2 {
-  background-image: linear-gradient(to right, #250455, #a37fdf);
+  background-image: none;
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 183px;
+  min-height: 200px;
 }
 
 .u-section-2 .u-social-icons-1 {
