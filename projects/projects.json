@@ -1,0 +1,106 @@
+{
+    "projects": [
+        {
+            "folder": "m8-minima",
+            "date": "Sep 2026",
+            "title": "M8 Minima",
+            "description": "Credit card sized single board computer with 4GB LPDDR4, eMMC, PCIe, Gigabit Ethernet, and USB Hub.",
+            "image": "https://raw.githubusercontent.com/crls-design/M8-Minima/main/images/front.jpg",
+            "imageAlt": "M8 Minima board",
+            "tags": [
+                "LPDDR4 @ 3000 MT/s",
+                "Gigabit Ethernet",
+                "eMMC 5.1",
+                "PCIe 2.0",
+                "USB 2.0"
+            ],
+            "repo": "https://github.com/crls-design/M8-Minima",
+            "viewerSrc": "https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=DD7F82E8-D7DC-42A3-B6C1-5F97BC071A7F&activeView=3D",
+            "shown": true
+        },
+        {
+            "folder": "a7-minima",
+            "date": "Jan 2026",
+            "title": "A7 Minima",
+            "description": "Credit card sized Artix 7 based system-on-module with 1GB DDR3, HDMI, QSPI Flash, and USB JTAG/UART.",
+            "image": "https://raw.githubusercontent.com/crls-design/A7-Minima/main/images/front%20back.jpg",
+            "imageAlt": "A7 Minima board",
+            "tags": [
+                "FPGA",
+                "DDR3 @ 800 MT/s",
+                "QSPI Flash",
+                "HDMI"
+            ],
+            "repo": "https://github.com/crls-design/A7-Minima",
+            "viewerSrc": "https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=F2B19AAB-B2CC-44E5-B118-A1E675FAA586&activeView=3D",
+            "shown": true
+        },
+        {
+            "folder": "flight-controller",
+            "date": "Sep 2025",
+            "title": "Flight Controller",
+            "description": "Compact ArduPilot compatible flight controller with triple redundant IMU, 16 PWM channels, 5 UARTs, and 2 CAN buses.",
+            "image": "https://raw.githubusercontent.com/crls-design/Flight-Controller/main/images/top.jpg",
+            "imageAlt": "Flight Controller board",
+            "tags": [
+                "STM32H7 @ 480 MHz",
+                "BGA Layout",
+                "IMU",
+                "UART",
+                "CAN"
+            ],
+            "repo": "https://github.com/crls-design/Flight-Controller",
+            "viewerSrc": "https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=F81D42A0-E55C-4BD5-9474-D2AF0BC247C6&activeView=3D",
+            "shown": true
+        },
+        {
+            "folder": "12s-esc",
+            "date": "Aug 2025",
+            "title": "12S ESC",
+            "description": "Compact 12S electronic speed controller with integrated telemetry and communication capabilities.",
+            "image": "https://raw.githubusercontent.com/crls-design/12S-ESC/main/images/v2%20raw.jpg",
+            "imageAlt": "12S ESC board",
+            "tags": [
+                "STM32G4 @ 170 MHz",
+                "High Power",
+                "Telemetry"
+            ],
+            "repo": "https://github.com/crls-design/12S-ESC",
+            "viewerSrc": "https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=4C4F875F-08E0-4791-89A8-D0456CFCB64F&activeView=3D",
+            "shown": true
+        },
+        {
+            "folder": "propmark",
+            "date": "Jan 2025",
+            "title": "PropMark",
+            "description": "Thrust stand controller designed to benchmark the performance of heavy-lift UAV propulsion systems, featuring galvanic isolation, high power handling, and a robust analog front end for precise measurements.",
+            "image": "https://raw.githubusercontent.com/crls-design/PropMark/main/images/v2/top%20wires.jpg",
+            "imageAlt": "Prop Mark board",
+            "tags": [
+                "STM32H7 @ 480 MHz",
+                "STM32G4 @ 170 MHz",
+                "Galvanic Isolation",
+                "High Power",
+                "Analog Front End"
+            ],
+            "repo": "https://github.com/crls-design/PropMark",
+            "viewerSrc": "https://personal-viewer.365.altium.com/client/index.html?feature=embed&source=B8E0457A-DA86-4DD5-B6DC-87617C2451EC&activeView=3D",
+            "shown": true
+        },
+        {
+            "folder": "template",
+            "date": "month year",
+            "title": "Project Template",
+            "description": "Project description.",
+            "image": "template.png",
+            "imageAlt": "Template board",
+            "tags": [
+                "AAA",
+                "BBB"
+            ],
+            "repo": "",
+            "viewerSrc": "",
+            "shown": false
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive PCB viewer.">
+
+    <title>Project Viewer — Charles Surianto</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Apply a saved theme before first paint to avoid a flash of the wrong one. -->
+    <script>
+        try {
+            const theme = localStorage.getItem("theme");
+
+            if (theme) {
+                document.documentElement.dataset.theme = theme;
+            }
+        } catch (error) { }
+    </script>
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+    <div id="site-header"></div>
+
+
+    <main id="viewer-root">
+
+        <!-- =========================
+             Project Info
+        ========================== -->
+        <section class="viewer-hero">
+
+            <a href="index.html#projects" class="viewer-back">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i> Back to all projects
+            </a>
+
+            <p id="viewer-date" class="viewer-date"></p>
+
+            <h1 id="viewer-title"></h1>
+
+            <p id="viewer-description" class="viewer-description"></p>
+
+            <ul id="viewer-tags" class="project-tags"></ul>
+
+            <a id="viewer-repo-link" href="#" target="_blank" rel="noopener noreferrer" class="external-link">
+                <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+
+        </section>
+
+
+        <!-- =========================
+             Altium ECAD Viewer
+        ========================== -->
+        <section class="viewer-embed-section">
+
+            <div id="viewer-embed"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+    <div id="site-footer"></div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

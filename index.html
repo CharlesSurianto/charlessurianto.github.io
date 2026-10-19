@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charles Surianto designs high-speed PCBs, embedded systems, and FPGA platforms.">
+
+    <title>Charles Surianto</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Apply a saved theme before first paint to avoid a flash of the wrong one. -->
+    <script>
+        try {
+            const theme = localStorage.getItem("theme");
+
+            if (theme) {
+                document.documentElement.dataset.theme = theme;
+            }
+        } catch (error) { }
+    </script>
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+    <div id="site-header"></div>
+
+
+    <main>
+
+        <!-- =========================
+             Hero
+        ========================== -->
+        <section class="hero">
+            <div id="about" class="hero-content">
+
+                <p class="section-eyebrow">A LITTLE ABOUT ME</p>
+
+                <div class="hero-about-content">
+                    <p>
+                        I design complex, high-speed PCBs, write low-level code, and command the entire breadth of
+                        embedded systems to turn ambitious ideas into real-world hardware.
+                    </p>
+                </div>
+
+                <a href="#projects" class="hero-link">
+                    <i class="fa fa-long-arrow-down" aria-hidden="true"></i> Explore my work
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             Projects / Timeline
+        ========================== -->
+        <section id="projects" class="projects">
+
+            <div class="section-header">
+                <p class="section-eyebrow">PROJECTS</p>
+                <h2>Explore My Work</h2>
+            </div>
+
+
+            <div class="project-slider-wrap">
+                <div id="project-slider" class="project-slider"></div>
+
+                <div class="project-slider-nav">
+                    <button type="button" class="slider-arrow slider-prev" aria-label="Previous project">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="slider-arrow slider-next" aria-label="Next project">
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-timeline">
+
+                <div class="timeline-track">
+                    <div id="timeline-fill" class="timeline-fill"></div>
+                    <div id="timeline-dots" class="timeline-dots"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Contact
+        ========================== -->
+        <section id="contact" class="contact">
+
+            <div class="section-header">
+                <p class="section-eyebrow">CONTACT</p>
+                <h2>Get in touch.</h2>
+            </div>
+
+            <!-- <p class="contact-line">Open to new projects and collaborations — reach out any time.</p> -->
+
+            <div class="contact-links">
+
+                <a href="mailto:charlessurianto@gmail.com">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> Email
+                </a>
+
+                <a href="https://www.linkedin.com/in/charles-surianto/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+
+                <a href="https://github.com/CharlesSurianto" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+    <div id="site-footer"></div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
