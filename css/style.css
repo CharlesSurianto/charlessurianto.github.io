@@ -315,6 +315,17 @@ section {
     letter-spacing: -0.045em;
 }
 
+.section-intro {
+    max-width: 640px;
+
+    margin-top: 28px;
+
+    color: var(--text-secondary);
+
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    line-height: 1.45;
+}
+
 
 /* =========================================================
    PROJECTS SECTION
